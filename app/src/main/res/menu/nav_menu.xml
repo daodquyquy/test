@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home"
+            />
+        <item
+            android:id="@+id/book"
+            android:icon="@drawable/book"
+            android:title="Đọc báo"
+            />
+        <item
+            android:id="@+id/music"
+            android:icon="@drawable/music"
+            android:title="Nghe nhạc"
+            />
+
+    </group>
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/quanlytaikhoan"
+                android:icon="@drawable/persion"
+                android:title="Quản lý tài khoản"
+                />
+<!--            <item-->
+<!--                android:id="@+id/changeimg"-->
+<!--                android:icon="@drawable/image"-->
+<!--                android:title="Change Img"-->
+<!--                />-->
+            <item
+                android:id="@+id/thoat"
+                android:icon="@drawable/out"
+                android:title="Đăng xuất"
+                />
+        </menu>
+
+    </item>
+</menu>

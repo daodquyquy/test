@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frg.MusicFragnment">
+
+    <TextView
+        android:id="@+id/tv_songs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Songs"
+        android:textSize="25dp"
+        android:textColor="#E36158"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:id="@+id/img_favorite"
+        android:src="@drawable/favorite"
+        android:layout_toEndOf="@+id/tv_songs"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Songs Found"
+        android:id="@+id/no_songs_found"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_song"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_songs" />
+
+</RelativeLayout>

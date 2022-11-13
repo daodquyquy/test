@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "984710787264",
+    "project_id": "fir-authall-e053d",
+    "storage_bucket": "fir-authall-e053d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984710787264:android:21283263360cf85f87bd25",
+        "android_client_info": {
+          "package_name": "vn.edu.poly.ph26439_mob201_assi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984710787264-mmhb9olnjijrarrn4jrsbq4nbtf0rpb8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.edu.poly.ph26439_mob201_assi",
+            "certificate_hash": "5043a9c039378e262d1f81f61c9537cff40d5b61"
+          }
+        },
+        {
+          "client_id": "984710787264-s5umrosn7k4gqb2r93mh80s56vjgdntt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8B-7aATpQltlwYgnhqmXw_XI2Bfp45u4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984710787264-s5umrosn7k4gqb2r93mh80s56vjgdntt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

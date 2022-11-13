@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Sức khoẻ"
+        android:id="@+id/nav_contact"
+        android:icon="@drawable/suckhoe"
+        />
+    <item android:title="Thể thao"
+        android:id="@+id/nav_bookmark"
+        android:icon="@drawable/thethao"
+        />
+    <item android:title="Du lịch"
+        android:id="@+id/nav_calllogs"
+        android:icon="@drawable/dulich"
+        />
+    <item android:title="Giáo dục"
+        android:id="@+id/nav_media"
+        android:icon="@drawable/giaoduc"
+        />
+</menu>
